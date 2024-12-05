@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Preenchimento Automático",
+  "version": "1.0",
+  "description": "Preenche campos automaticamente com base em dados fornecidos.",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["http://*/*", "https://*/*"],
+  "action": {
+      "default_popup": "popup.html"
+  }
+}
